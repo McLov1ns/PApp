@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PApp\PApp.csproj" />
+    <ProjectReference Include="..\PApp1\PApp1.csproj" />
   </ItemGroup>
 
   <ItemGroup>

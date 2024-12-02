@@ -1,11 +1,11 @@
-﻿using PApp;
+﻿using PApp1;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PautTests
+namespace PAppTests
 {
     public class StringTests
     {
@@ -39,7 +39,7 @@ namespace PautTests
         [Fact]
         public void TestFileReading()
         {
-            string text = TestData.GetTextFromFile("C:\\Users\\MEGABOOK\\source\\repos\\PApp\\PApp\\sample.txt");
+            string text = TestData.GetTextFromFile("C:\\Users\\MEGABOOK\\source\\repos\\PApp\\PApp1\\sample.txt");
             Assert.NotNull(text);
         }
     }

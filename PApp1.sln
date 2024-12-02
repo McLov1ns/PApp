@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PApp", "PApp\PApp.csproj", "{B29A7D33-8334-4338-B08F-CA9C64BAF6B0}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PAppTests", "PAppTests\PAppTests.csproj", "{5FAF85BA-3617-4F14-9BCF-998781061673}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PApp1", "PApp1\PApp1.csproj", "{7C72104E-CE67-41A0-AABC-B4D3996DB360}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B29A7D33-8334-4338-B08F-CA9C64BAF6B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B29A7D33-8334-4338-B08F-CA9C64BAF6B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B29A7D33-8334-4338-B08F-CA9C64BAF6B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B29A7D33-8334-4338-B08F-CA9C64BAF6B0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5FAF85BA-3617-4F14-9BCF-998781061673}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5FAF85BA-3617-4F14-9BCF-998781061673}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FAF85BA-3617-4F14-9BCF-998781061673}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FAF85BA-3617-4F14-9BCF-998781061673}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C72104E-CE67-41A0-AABC-B4D3996DB360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C72104E-CE67-41A0-AABC-B4D3996DB360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C72104E-CE67-41A0-AABC-B4D3996DB360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C72104E-CE67-41A0-AABC-B4D3996DB360}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

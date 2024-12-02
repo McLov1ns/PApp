@@ -1,16 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PApp
+﻿namespace PApp1
 {
     public class Calculations
     {
-        static void Main(string[] args)
-        {
-        }
         public static double Multiply(double a, double b) => a * b;
 
         public static double Divide(double a, double b)

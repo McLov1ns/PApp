@@ -1,4 +1,4 @@
-using PApp;
+using PApp1;
 namespace PAppTests
 {
     public class CalculationsTests
