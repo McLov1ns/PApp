@@ -4,16 +4,19 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
-  build-and-test:
+  build:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
 
-    - name: Setup .NET Core
+    - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: '8.0.x'
@@ -21,8 +24,8 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
 
-    - name: Build project
-      run: dotnet build --configuration Release
+    - name: Build
+      run: dotnet build --no-restore
 
-    - name: Run tests
-      run: dotnet test --logger:"junit;LogFilePath=TestResults.xml"
+    - name: Run Tests
+      run: dotnet test --no-build --logger:"trx;LogFileName=test_results.trx"
