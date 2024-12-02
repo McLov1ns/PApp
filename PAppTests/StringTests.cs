@@ -39,8 +39,10 @@ namespace PAppTests
         [Fact]
         public void TestFileReading()
         {
-            string text = TestData.GetTextFromFile("C:\\Users\\MEGABOOK\\source\\repos\\PApp\\PApp1\\sample.txt");
-            Assert.NotNull(text);
+            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "sample.txt");
+            string content = File.ReadAllText(filePath);
+            Assert.NotNull(content);
         }
+
     }
 }
